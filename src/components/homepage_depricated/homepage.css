@@ -1,0 +1,45 @@
+.apphome{
+    color: white;
+    font-family: sans-serif;
+}
+
+.approvedimg{
+    height: 11.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.admits-bar{
+    background-color: #1A70B9;
+    height: 1.875;
+    width: 100%;
+}
+
+.no-margin{
+    margin: 0rem 0rem;
+}
+
+.admits-text{
+    color: white;
+}
+
+
+.time-image{
+    height: 7.875;
+    transform: rotate(-16deg);
+}
+
+.fontsize-18{
+    font-size:1.125rem;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+.fontsize-46{
+    font-size:2.875rem;
+    font-weight: bold;
+    margin: 0.375rem 0rem;
+}
+
+.action-link{
+    color: aqua;
+}

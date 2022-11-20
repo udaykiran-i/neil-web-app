@@ -1,0 +1,32 @@
+.App {
+}
+/* .homepage{
+  background-image: url("./images/homepageback.png");
+  /* background-repeat: no-repeat; */
+  /* -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; 
+  background-size: cover;
+  background-color: #383838;
+}*/
+.homepage{
+  background-color: #F5F5F5;
+}
+@media (max-width: 450px) { 
+  .homepage{
+    background-image: url("./images/homepageback.png");
+    background-size: cover;
+  }
+  /* .App{
+    background-image: url("./images/whyusback.jpg");
+  }  */
+
+ }
+ /* .services{
+   margin-top: 24px;
+ } */
+
+
+
+

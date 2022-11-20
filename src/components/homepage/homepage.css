@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* body {
+  
+} */
+.apphome{
+    font-family: 'Open Sans';
+    padding-left: 6.063rem;
+    padding-top: 6.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+  background-color: #F5F5F5;
+
+}
+
+.approvedimg{
+    height: 18.125rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 450px) { 
+    .approvedimg{
+        width: 100%;
+        height: 14.375rem;
+    }
+    .apphome{
+        font-family: 'Open Sans';
+        margin-left: 3rem;
+        margin-right: 1.75rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+    .home-heading{
+        font-weight: 400 !important;
+        font-size: 1.563rem !important;
+        line-height: 1.813rem !important;
+    }
+    .experts-para{
+        font-weight: 400 !important;
+        font-size: 0.688rem !important;
+        line-height: 0.813rem !important;
+    }
+    .delivery-para{
+        font-weight: 700 !important;
+        font-size: 2.188rem !important;
+        line-height: 2.563rem !important;
+    }
+    .action-para{
+        font-weight: 400!important;
+        font-size: 0.938rem!important;
+        line-height: 1.125rem!important;
+    }
+    .time-flex{
+        justify-content: center;
+    }
+    .delivery-div{
+        margin-top: 1.563rem;
+    }
+
+}
+
+.no-margin{
+    margin: 0px 0px;
+}
+
+.admits-text{
+    color: white;
+}
+
+
+.time-image{
+    height: 7.875rem;
+    transform: rotate(-16deg);
+}
+
+.fontsize-18{
+    font-size:1.125rem;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+.delivery-para{
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 5.125rem;
+}
+
+.action-link{
+    color: aqua;
+}
+.home-grid{
+    flex-direction: row-reverse !important;
+}
+.time-flex{
+    display: flex;
+    margin-top:1.25rem;
+}
+.action-flex{
+    display: flex;
+    margin-top:1.25rem;
+}
+.check-flex{
+    display: flex;
+}
+.action-button {
+    background: #00ACEE !important;
+    border-radius: 40px !important;
+}
+.submit-button{
+    text-align: center;
+    margin-top: 1.25rem;
+}
+p{
+    margin: 0px;
+}
+.experts-para{
+font-weight: 400;
+font-size: 1.313rem;
+line-height: 1.563rem;
+text-align: justify;
+letter-spacing: -0.02em;
+margin-top: 0.938rem;
+}
+.home-heading{
+font-weight: 400;
+font-size: 3.313rem;
+line-height: 3.875rem;
+
+}
+.action-para{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    margin-left: 1.563rem;
+}
+.actions-div{
+    /* text-align: center; */
+}

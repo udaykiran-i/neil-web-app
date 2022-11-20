@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.desire-root{
+    background-image: url('../../images/Services\ girl.png');
+    height: 100%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+    background-color: #22577E;
+}
+.headings{
+    color:white;
+    text-align:center;
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-family: 'Open Sans';
+}
+.titles {
+    color: #0089BD;
+    /* padding-left: 12rem; */
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+.contents {
+    color: white;
+    font-size: 1rem;
+    padding: 0 7rem 2rem 7rem;
+    text-align: left;
+    font-family: 'Open Sans';
+    text-align: justify;
+    letter-spacing: -0.02em;
+}
+/* .contents:before, .contents:after {
+    content: '  ';
+    border-color: white;
+    border-style:dashed;
+    border-width: 0;
+    -webkit-transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+    -moz-transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+    transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+    -webkit-transform: translate(0px, 0px) scale(0.8);
+    -moz-transform: translate(0px, 0px) scale(0.8);
+    -ms-transform: translate(0px, 0px) scale(0.8);
+    -o-transform: translate(0px, 0px) scale(0.8);
+    transform: translate(0px, 0px) scale(0.8);
+    opacity: 0;
+  }
+  .contents:before {
+    left: 0;
+    bottom: 0;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  }
+  .contents:after {
+    top: 0;
+    right: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+  }
+  .contents:hover:before, .contents:hover:after {
+    -webkit-transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+    -moz-transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+    transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+    opacity: 1;
+  }
+  .contents:hover:before {
+    -webkit-transform: translate(-30px, 20px) scale(1);
+    -moz-transform: translate(-30px, 20px) scale(1);
+    -ms-transform: translate(-30px, 20px) scale(1);
+    -o-transform: translate(-30px, 20px) scale(1);
+    transform: translate(-30px, 20px) scale(1);
+    border-bottom-width: 12px;
+    border-left-width: 12px;
+  }
+  .contents:hover:after {
+    -webkit-transform: translate(30px, -20px) scale(1);
+    -moz-transform: translate(30px, -20px) scale(1);
+    -ms-transform: translate(30px, -20px) scale(1);
+    -o-transform: translate(30px, -20px) scale(1);
+    transform: translate(30px, -20px) scale(1);
+    border-top-width: 12px;
+    border-right-width: 12px;
+  } */
+  .contents:hover{
+    transform: scale(1.1); 
+  }
+  .titles:hover {
+    transform: scale(1.1); 
+  }
+  .title-div{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.no-margin{
+    margin: 0px 0px;
+}
+
+@media screen and (max-width: 450px) {
+    .desire-root{
+        background-image: url('../../images/Services\ girl.png');
+        background-color: black;
+        height: 100%; 
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* ,linear-gradient(rgba(0,0,0),rgba(0,67.45,93.33)) */
+    }
+    .contents{
+        font-size: 0.80rem;
+        padding: 0 2rem 1rem 2rem;
+        text-align: left;
+        font-family: 'Open Sans';
+    }
+    .headings{
+        color:white;
+        text-align:center;
+        font-size: 1rem;
+        padding-top: 2rem;
+        font-family: 'Open Sans';
+    }
+    .titles {
+        color: #0089BD;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 0.90rem;
+    }
+    .contents:hover{
+        transform: scale(1.05); 
+      }
+      .titles:hover {
+        transform: scale(1.05); 
+      }
+}

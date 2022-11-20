@@ -1,0 +1,30 @@
+.appbar{
+    background-color: #00A1DF; 
+}
+
+.appIcon{
+    height: 2.625rem; 
+    background-color: White;
+}
+
+.appImage {
+    text-align: 'center';
+}
+
+.header-button {
+    background: white !important;
+    border-radius: 2.5rem !important;
+    color: black !important;
+}
+
+.buttons {
+    margin-left: 50rem;
+}
+
+
+@media(max-width: 450px) {
+    .appIcon{
+        height: 1.625rem; 
+        background-color: White;
+    }
+}

@@ -1,0 +1,113 @@
+.testimonials{
+    text-align: center;
+  background-color: #F5F5F5;
+
+}
+
+
+.admits-bar{
+    background-color: #00A1D6;;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 3.75rem;
+    justify-content: center;
+    align-items: center;
+}
+.top-admits-img{
+    width: 7.5rem;
+    height: 5rem;
+    margin: 0.625rem;
+}
+
+.top-admits-img:hover{
+    transform: scale(1.5); 
+}
+
+.testi-heading{
+    font-weight: 700;
+    font-size: 1.688rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.testi-image{
+    width: 12.5rem;
+    height: 12.5rem;
+    padding-left: 0.625rem;
+}
+.testi-image:hover{
+    transform: scaleX(-1);
+}
+.testi-content{
+    margin-left: 6.063rem;
+    
+    margin-right: 1.25rem;
+}
+.testi-body{
+    margin: 1.25rem;
+}
+.no-margin{
+    margin: 0rem 0rem;
+}
+.testi-grid{
+    flex-direction: row-reverse !important;
+}
+.testi-heading{
+    margin-top: 6.25rem;
+}
+.testi-stars{
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
+@media(max-width: 450px) {
+    .top-admits-img{
+        width: 3.75rem;
+        height: 2.5rem;
+        margin: 0.625rem;
+    } 
+    .top-admits-img:hover{
+        transform: scale(1.2); 
+    }
+    .testi-heading{
+        margin-top: 3.125rem;
+    }
+    .testi-content{
+        margin-left: 40px;
+        
+        margin-right: 2.5rem;
+    }
+    .testi-image{
+        margin-left: 1.25rem;
+    }
+    .satisfaction-image{
+        width: 10rem;
+        height: 8.783rem;
+    }
+    .satisfaction-image-landscape{
+        display: none;
+    }
+    .satisfaction-image-potrait{
+        display: initial !important;
+    }
+}
+.aphos-design{
+    font-weight: 400;
+    font-size: 1.875rem;
+    color: #00ACEE;
+}
+.satisfaction-image-potrait{
+    width: 12.5rem;
+    height: 11.345rem;
+    transform: rotate(-16deg);
+}
+.satisfaction-image-potrait{
+    display: none;
+}
+.satisfaction-image-landscape{
+    width: 12.5rem;
+    height: 11.345rem;
+    transform: rotate(-16deg);
+}
+

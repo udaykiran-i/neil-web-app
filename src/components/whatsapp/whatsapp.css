@@ -1,0 +1,32 @@
+
+
+.text-us{
+    position: fixed;
+    width: 9.75rem;
+    height: 1.75rem;
+    box-shadow: aqua;
+    bottom: 6rem;
+    right: 0rem;
+    color: white;
+    background-color: #00ACEE;
+    text-align: center;
+}
+
+.whatsapp{
+    position: fixed;
+    width: 3.75rem;
+    height: 3.75rem;
+    bottom: 2.188rem;
+    right: 2.5rem;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 3.125rem;
+    text-align: center;
+    font-size: 1.875rem;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.my-float {
+    color: white;
+    margin-top: 1rem;
+}
